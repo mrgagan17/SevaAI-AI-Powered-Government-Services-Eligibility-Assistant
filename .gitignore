@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+
+# Data & Database
+data/chroma/
+*.db
+*.sqlite3
+
+# Uploaded documents directory structure preserved via .gitkeep
+data/documents/*
+!data/documents/.gitkeep
+!data/documents/recruitment/
+!data/documents/scholarships/
+!data/documents/schemes/
+!data/documents/notifications/
+
+# Node / Frontend
+node_modules/
+dist/
+.vite/
+*.local
+
+# Environment variables
+.env
+
+# Testing & Logs
+.pytest_cache/
+*.log
